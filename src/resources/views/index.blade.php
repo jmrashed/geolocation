@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>geolocation</title>
-    <link rel="stylesheet" href="{{ asset('assets/css/geo.css') }}">
-    <script src="{{ asset('assets/js/geo.css') }}"></script>
+    <link rel="stylesheet" href="{{ asset('geolocation::assets/css/geo.css') }}">
+    <script src="{{ asset('geolocation::assets/js/geo.css') }}"></script>
 
 
 </head>

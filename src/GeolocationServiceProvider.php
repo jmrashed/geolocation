@@ -19,25 +19,12 @@ class GeolocationServiceProvider extends ServiceProvider
         $this->loadTranslationsFrom(__DIR__ . '/translations', 'geolocation');
         $this->publishes([
             __DIR__ . '/config/geolocation.php' => config_path('geolocation.php'),
-        ], 'config');
-        $this->publishes([
-            __DIR__ . '/database/factories' => database_path('factories'),
-        ], 'factories');
-        $this->publishes([
+            __DIR__ . '/public/assets' => base_path('public/assets/vendor/geolocation'),
             __DIR__ . '/database/migrations' => database_path('migrations'),
-        ], 'migrations');
-        $this->publishes([
             __DIR__ . '/database/seeds' => database_path('seeds'),
-        ], 'seeds');
-        $this->publishes([
-            __DIR__ . '/public' => public_path('vendor/geolocation'),
-        ], 'public');
-        $this->publishes([
             __DIR__ . '/resources/views' => resource_path('views/vendor/geolocation'),
-        ], 'views');
-        $this->publishes([
-            __DIR__ . '/translations' => resource_path('lang/vendor/geolocation'),
-        ], 'translations');
+            __DIR__ . '/lang' => resource_path('lang/vendor/geolocation'),
+        ], 'geolocation');
     }
 
     /**

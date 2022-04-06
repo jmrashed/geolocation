@@ -18,6 +18,12 @@ Laravel package to get the details about Region, City and Country for a given IP
     composer require jmrashed/geolocation
 ```
 
+## Published package
+
+```bash
+    php artisan vendor:publish --provider="Jmrashed\Geolocation\GeolocationServiceProvider" --tag='geolocation'
+```
+
 ## Usage
 
 ```bash

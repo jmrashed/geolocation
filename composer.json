@@ -1,0 +1,26 @@
+{
+  "name": "jmrashed/geolocation",
+  "description": "geolocation package will provide user location",
+  "type": "library",
+  "require": {},
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Jmrashed\\Geolocation\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Jmrashed\\Geolocation\\GeolocationServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "Rashed Zaman",
+      "email": "jmrashed@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}

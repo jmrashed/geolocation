@@ -48,7 +48,7 @@ Rashed Zaman
 
 ## Repository
 
-https://github.com/jmrashed/mdrasheduzzaman
+https://github.com/jmrashed/geolocation
 
 ## Contributors
 

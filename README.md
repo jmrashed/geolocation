@@ -24,26 +24,30 @@ Laravel package to get the details about Region, City and Country for a given IP
 
 ## Example
 
-    `$geolocation = new GeolocationController();`
-    `$geolocation->getLocation($latitude, $longitude);`
+```bash
+    $geolocation = new GeolocationController();
+    $geolocation->getLocation($latitude, $longitude);
+```
 
 ## License
 
-    `MIT`
+MIT
 
 ## Author
 
-    `Rashed Zaman`
+Rashed Zaman
 
 ## Repository
 
-    `https://github.com/jmrashed/mdrasheduzzaman`
+https://github.com/jmrashed/mdrasheduzzaman
 
 ## Contributors
 
-    `Rashed Zaman`
+Rashed Zaman
 
 ## Changelog
 
-    `v1.0.0`
+```bash
+    v1.0.0
         - Initial release.
+```

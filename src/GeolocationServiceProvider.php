@@ -21,7 +21,7 @@ class GeolocationServiceProvider extends ServiceProvider
             __DIR__ . '/config/geolocation.php' => config_path('geolocation.php'),
             __DIR__ . '/public/assets' => base_path('public/assets/vendor/geolocation'),
             __DIR__ . '/database/migrations' => database_path('migrations'),
-            __DIR__ . '/database/seeds' => database_path('seeds'),
+            __DIR__ . '/database/seeders' => database_path('seeders'),
             __DIR__ . '/resources/views' => resource_path('views/vendor/geolocation'),
             __DIR__ . '/lang' => resource_path('lang/vendor/geolocation'),
         ], 'geolocation');

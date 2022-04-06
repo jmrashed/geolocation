@@ -20,7 +20,10 @@ Laravel package to get the details about Region, City and Country for a given IP
 
 ## Usage
 
-    `use App\Http\Controllers\GeolocationController;`
+```bash
+ $geolocation->getLocation($latitude, $longitude);
+  $geolocation->getLocationByIp($ip);
+```
 
 ## Example
 
